@@ -1,0 +1,22 @@
+/* Start  Compaines Section*/
+.companies_section {
+}
+.companies_section .comp_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FDFDFD;
+  border-radius: var(--radius);
+  outline: none;
+  border: 1px solid #E8E8E8;
+  cursor: pointer;
+  height: 150px;
+  overflow: hidden;
+}
+.companies_section .comp_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+/* End  Compaines Section*/

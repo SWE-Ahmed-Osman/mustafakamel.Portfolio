@@ -1,0 +1,48 @@
+/* Start Services Section */
+.services_section {
+  overflow: hidden;
+}
+.services_section .service_card {
+  padding: 24px 28px 24px 31px;
+  border-radius: var(--radius);
+  position: relative;
+  transition: .3s linear;
+  height: 100%;
+}
+.services_section .service_card .service_card_title {
+  margin: 24px 0 16px;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* Start Media Max-width: 1399px */
+@media(max-width: 1399px) {
+  .services_section .service_card  svg {
+    width: fit-content;
+    height: 50px;
+  } 
+  .services_section .service_card .service_card_title {
+    font-size: 18px;
+    margin: 22px 0 14px;
+  }
+}
+/* End Media Max-width: 1399px */
+/* Start Media Max-width: 1199px */
+@media(max-width: 1199px) {
+  .services_section .service_card {
+    padding: 20px;
+  }
+  .services_section .service_card  svg {
+    height: 40px;
+  }  
+  .services_section .service_card .service_card_title {
+    font-size: 16px;
+    margin: 20px 0 12px;
+  }
+}
+/* End Media Max-width: 1199px */
+@media(max-width: 991px) {
+  .services_section .service_card {
+    margin-bottom: 20px;
+  }
+}
+/* End Services Section */
